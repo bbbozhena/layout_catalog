@@ -24,7 +24,7 @@ body {
   width: 40px;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   list-style: none;
   font-size: 12px;
@@ -32,15 +32,15 @@ body {
   padding: 23px 0;
 }
 
-.nav-item {
+.nav__item {
   margin-right: 20px;
 }
 
-.nav-item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
-.nav-item-link {
+.nav__link {
   padding: 23px 0;
   text-decoration: none;
   color: #060b35;
@@ -54,12 +54,12 @@ body {
   }
 }
 
-.nav-item-link--is-active {
+.is-active {
   position: relative;
   color: var(--blue-color);
 }
 
-.nav-item-link--is-active::after {
+.is-active::after {
   content: '';
   position: absolute;
   left: 0;

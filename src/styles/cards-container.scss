@@ -1,9 +1,12 @@
 .cards-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, 200px);
   gap: 48px 46px;
   padding: 50px 40px;
+  justify-content: center;
   place-items: center;
+  max-width: calc(200px * 4 + 36px * 4);
+  margin: 0 auto;
 }
 
 @media (min-width: 488px) {
